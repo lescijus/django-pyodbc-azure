@@ -30,3 +30,9 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     supports_timezones = False
     supports_transactions = True
     uses_savepoints = True
+
+    can_introspect_duration_field = False
+    supports_ignore_conflicts = False
+    supports_functions_in_partial_indexes = False
+    supports_partial_indexes = False
+    supports_table_check_constraints = False
